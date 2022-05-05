@@ -1,0 +1,111 @@
+{
+    "shoes": [
+        {  
+             "id": 1, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-11-masculino/26/HZM-5208-026/HZM-5208-026_detalhe1.jpg?ts=1630603834?ims=280x280",
+            "name": "Tênis Nike Revolution 6 Next Nature Masculino - Preto+Dourado", 
+            "oldPrice": "329,99",
+            "newPrice": "249,99",
+            "freeFreight": true
+        },
+        {   
+            "id": 2,
+            "imgProduct": "https://static.netshoes.com.br/produtos/tenis-olympikus-cyber-2-masculino/02/2I2-2585-002/2I2-2585-002_detalhe1.jpg?ts=1633976012?ims=280x280",
+            "name": "Tênis Olympikus Cyber 2 Masculino - Preto+Vermelho", 
+            "oldPrice": "249,99",
+            "newPrice": "139,99",
+            "freeFreight": true           
+        },
+        {  
+            "id": 3, 
+           "imgProduct": "https://static.netshoes.com.br/produtos/tenis-adidas-coreracer-masculino/67/NQQ-4635-C67/NQQ-4635-C67_detalhe1.jpg?ts=1637760259?ims=280x280",
+           "name": "Tênis Adidas Coreracer Masculino - Chumbo", 
+           "oldPrice": "249,99",
+           "newPrice": "159,99",
+           "freeFreight": false
+       },
+       {  
+            "id": 4, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/tenis-adidas-coreracer-masculino/12/NQQ-4635-012/NQQ-4635-012_detalhe1.jpg?ts=1637760492?ims=280x280",
+            "name": "Tênis Adidas Coreracer Masculino - Azul Petróleo+Branco", 
+            "oldPrice": "249,99",
+            "newPrice": "159,99",
+            "freeFreight": false
+        },
+        {  
+            "id": 5, 
+           "imgProduct": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-6-next-nature-masculino/56/2IC-4365-056/2IC-4365-056_detalhe1.jpg?ts=1631637722?ims=280x280",
+           "name": "Tênis Nike Revolution 6 Next Nature Masculino - Vermelho+Branco", 
+           "oldPrice": "389,99",
+           "newPrice": "279,99",
+           "freeFreight": true
+       },
+       {  
+            "id": 6, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/tenis-nike-revolution-6-next-nature-masculino/40/2IC-4365-240/2IC-4365-240_detalhe1.jpg?ts=1631637470?ims=280x280",
+            "name": "Tênis Nike Revolution 6 Next Nature Masculino - Cinza+Azul", 
+            "oldPrice": "389,99",
+            "newPrice": "279,99",
+            "freeFreight": true
+        },
+        {  
+            "id": 7, 
+           "imgProduct": "https://static.netshoes.com.br/produtos/tenis-olympikus-fluido-masculino/10/2I2-2587-310/2I2-2587-310_detalhe1.jpg?ts=1629369586?ims=280x280",
+           "name": "Tênis Olympikus Fluido Masculino", 
+           "oldPrice": "449,99",
+           "newPrice": "299,99",
+           "freeFreight": true
+       },
+       {  
+            "id": 8, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-11-masculino/72/HZM-5208-172/HZM-5208-172_detalhe1.jpg?ts=1626300946?ims=280x280",
+            "name": "Tênis Nike Downshifter 11 Masculino - Preto+Cinza", 
+            "oldPrice": "329,99",
+            "newPrice": "299,99",
+            "freeFreight": false
+        }
+    ],
+
+    "shirts":[
+        {
+            "id": 1, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/camisa-camiseta-f1-formula-1-equipe-alpine-f1-team/08/8YY-0383-008/8YY-0383-008_zoom1.jpg?ts=1647978669&ims=544x",
+            "name": "Camisa Camiseta F1 Formula 1 Equipe Alpine F1 Team - Azul", 
+            "oldPrice": "129,99",
+            "newPrice": "99,99",
+            "freeFreight": true
+        }, 
+        {
+            "id": 2, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/camiseta-masculina-manga-curta-uv-50-luna-azul-marinho-gg/08/K90-3153-008/K90-3153-008_zoom1.jpg?ts=1648214808&ims=544x",
+            "name": "Camiseta Masculina Manga Curta UV 50+ Luna - Azul Marinho - GG - Azul", 
+            "oldPrice": "135,00",
+            "newPrice": "110,48",
+            "freeFreight": false
+        }, 
+        {
+            "id": 3, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/camisa-camiseta-f1-formula-1-equipe-scuderia-alphatauri/14/8YY-0384-014/8YY-0384-014_zoom1.jpg?ts=1647978683&ims=544x",
+            "name": "Camisa Camiseta F1 Formula 1 Equipe Scuderia AlphaTauri - Branco", 
+            "oldPrice": "129,99",
+            "newPrice": "99,99",
+            "freeFreight": true
+        }, 
+        {
+            "id": 4, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/camisa-camiseta-f1-formula-1-equipe-scuderia-ferrari/16/8YY-0379-016/8YY-0379-016_zoom1.jpg?ts=1647978218&ims=544x",
+            "name": "Camisa Camiseta F1 Formula 1 Equipe Scuderia Ferrari - Vermelho", 
+            "oldPrice": "149,99",
+            "newPrice": "110,99",
+            "freeFreight": true
+        },
+        {
+            "id": 5, 
+            "imgProduct": "https://static.netshoes.com.br/produtos/camisa-camiseta-f1-formula-1-equipe-red-bull-racing/42/8YY-0388-342/8YY-0388-342_zoom1.jpg?ts=1647978742&ims=544x",
+            "name": "Camisa Camiseta F1 Formula 1 Equipe Red Bull Racing - Azul Escuro", 
+            "oldPrice": "149,99",
+            "newPrice": "110,99",
+            "freeFreight": true
+        }
+    ]
+}
