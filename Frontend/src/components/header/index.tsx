@@ -27,6 +27,10 @@ const Header = () =>{
     const [search, setSearch] = useState<string>('')
 
     useEffect(() =>{
+      if(theme.isDark) setIsDarkMode(true)
+    }, [theme.isDark]);
+
+    useEffect(() =>{
       setNumProducts(state.myListProducts.count)
     }, [state.myListProducts]);
 
@@ -35,11 +39,11 @@ const Header = () =>{
     }
 
     const searchProduct = (search: string) =>{
-      /*if(search !== ''){
+      if(search !== ''){
         try{
           api.get(`api/searchproducts/${search}`).then(data =>{
             console.log('produtos', data.data.products)
-            dispatchListProduct({
+            dispatch({
               type: 'ADD',
                 payload:{
                   filterProducts: data.data.products
@@ -51,7 +55,7 @@ const Header = () =>{
         }
       }else{
           alert('digite alguma coisa no campo')
-      }*/
+      }
       
     }
 

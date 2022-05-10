@@ -11,9 +11,7 @@ const ShowProduct = () =>{
     const params = useParams()
 
     useEffect(() =>{
-        console.log('id', params.id)
         api.get(`api/products/${params.id}`).then(data =>{
-            console.log('result', data.data)
             if(data.data){
                 setInfoProduct((prevState:any) => ({
                     ...prevState,
@@ -83,17 +81,16 @@ const ShowProduct = () =>{
                             R$ {infoProduct.newPrice}
                         </text>
 
-                        {infoProduct.freeFreight && (
+                        {infoProduct.freeFreight ? 
                             <text className="mt-3 text-green-500 font-bold">
                                 FRETE GRATÍS
                             </text>
-                        )}
-
-                        {!infoProduct.freeFreight && (
-                            <text className="mt-3 dark:text-white">
-                                FRETE GRATÍS
+                            :
+                            <text className="mt-3 font-bold">
+                                FRETE INCLUSO
                             </text>
-                        )}
+                        }
+
                         
                         <OptionSizeProduct
                             type="SHIRT"
